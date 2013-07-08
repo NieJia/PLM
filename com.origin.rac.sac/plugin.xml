@@ -1,0 +1,1634 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+	<extension point="org.eclipse.ui.commands">
+	
+       	 <!-- 项目文档   研发文档  管理-->
+			<command name="项目状态报告/研发月报（进度、问题、风险、度量数据）" id="S4XMZTBG" />
+			<command name="配置基线发布报告" id="S4PZJXFBBG" />
+			<command name="配置状态报告" id="S4PZZTBG" />
+			<command name="项目成员工作周报" id="S4XMCYGZ" />
+			<command name="项目问题风险跟踪表" id="S4XMWTFXGZ" />
+			<command name="项目QA/QC检查审计单" id="S4XMQA" />
+			<command name="需求跟踪矩阵" id="S4XQJZ" />
+			<command name="正式/非正式评审报告" id="S4ZSFZS" />
+			<command name="立项评审决策表" id="S4LXJCB" />
+			<command name="需求评审报告" id="S4XQPSBG" />
+			<command name="PCB评审决策表" id="S4PCBPS" />
+			<command name="设计评审报告（概设/详设）" id="S4SJPSBG" />
+			<command name="产品标准审查记录" id="S4CPBZSC" />
+			<command name="测试用例设计评审报告" id="S4CSYLSJ" />
+			<command name="测试计划与设计评审报告" id="S4CSJHBG" />
+			<command name="电气功能模件验收评审报告" id="S4DQGNPS" />
+			<command name="样机评审报告" id="S4YJPSBG" />
+			<command name="项目计划更改/暂停/撤销申请表" id="S4PMCAF" />
+			<command name="新产品科研试制计划更改申请表" id="S4PASQB" />
+			<command name="设计更改申请表" id="S4SJGG" />
+			<command name="设计更改验证报告" id="S4SJGGYZ" />
+			<command name="软件更改通知单" id="S4RJGGTZD" />
+			<command name="图样及技术文件更改对照表" id="S4TYDZB" />
+			<command name="产品说明书归档及更改申请表" id="S4CPSMS" />
+			<command name="项目质量保证月报" id="S4XMZLBZ" />
+			<command name="配置权限变更申请表" id="S4PZXQB" />			
+       	 <!-- 项目文档   研发文档  A阶段（立项）-->
+			<command name="企业级鉴定（小结）类新产品立项申请表" id="S4lxsqs" />
+			<command name="可行性研究报告" id="S4PFSR" />
+			<command name="需求收集报告" id="S4XQSJ" />
+			<command name="鉴定类新产品立项申请表" id="S4PA" />
+			<command name="设计任务书" id="S4SJRWS" />
+			<command name="项目估算表" id="S4XMGSB" />
+			<command name="项目WBS" id="S4PAWBS" />
+			<command name="过程裁剪表" id="S4GCCJ" />
+			<command name="交付物裁剪表" id="S4JFWB" />
+			<command name="项目支撑子计划/度量（MA）计划" id="S4XMZCZ" />
+			<command name="项目支撑子计划/质量（QA）保证计划" id="S4XMZCZQ" />
+			<command name="项目支撑子计划/配置（CM）计划" id="S4XMZCC" />
+			<command name="项目配置结构权限表" id="S4PMQXB" />
+			<command name="意向技术合同书" id="S4YXHTS" />
+			<command name="立项科技查新表" id="S4PMKJCXB" />
+			<command name="查新报告" id="S4CXBG" />
+			<command name="评审表" id="S4PSB" />
+			<command name="项目立项决策评分表" id="S4XMLXJCPFB" />			
+       	 <!-- 项目文档   研发文档  B阶段（需求与设计）-->
+			<command name="数据库设计说明书" id="S4SJKSMS" />
+			<command name="软件需求说明书" id="S4RJXQ" />
+			<command name="硬件需求说明书" id="S4YJXQ" />
+			<command name="单板硬件需求说明书" id="S4DBYJXQ" />
+			<command name="需求变更报告" id="S4XQBG" />
+			<command name="装置总体设计" id="S4ZZZT" />
+			<command name="装置详细设计" id="S4ZZXX" />
+			<command name="软件概要设计" id="S4RJGY" />
+			<command name="软件详细设计说明书（模块、类、函数、数据、界面）" id="S4RJSJX" />
+			<command name="产品标准" id="S4CPBZ" />
+			<command name="机械/工艺方案" id="S4GYFA" />
+			<command name="电气工艺方案" id="S4DQGYFA" />
+			<command name="装置选装表" id="S4ZZXZB" />
+			<command name="产品型号名称申请表" id="S4CPXHSQ" />
+			<command name="项目测试通过准则" id="S4XMTG" />
+			<command name="项目测试用例设计（集成、系统）" id="S4XMCS" />
+			<command name="测试方案设计与计划（集成、系统）" id="S4CSFA" />
+			<command name="数据要求说明书" id="S4SJYQ" />
+			<command name="原理图仿真报告" id="S4YLTFZ" />
+			<command name="关键技术仿真测试报告" id="S4GJJS" />
+			<command name="模具技术规范书" id="S4MJJS" />
+			<command name="三维模型文件" id="S4SWMX" />
+			<command name="技术共享说明/通用件汇总表（或借用件汇总表）" id="S4JSGXSM" />
+			<command name="装置系统方框图" id="S4ZZXTFKT" />
+			<command name="单模件电原理图" id="S4DMKYLT" />
+			<command name="关键方案决策评分表" id="S4GJFAJCPFB" />
+			<command name="通用设计文件封面" id="S4TYSJWJFM" />
+         <!-- 项目文档   研发文档  C阶段（样机试制）-->
+			<command name="系统设计文件封面" id="S4XTSJWJF" />
+			<command name="系统设计文件总目录" id="S4XTSJWJJ" />
+			<command name="系统集成规范说明" id="S4XTJCGF" />
+			<command name="系统检验（或验收）规范" id="S4XTJYGF" />
+			<command name="系统产品设计文件归档目录" id="S4XTCPSJG" />
+			<command name="软件产品设计文件归档目录" id="S4RJCPGDML" />
+			<command name="软件设计文件封面" id="S4RJSJFM" />
+			<command name="软件设计文件总目录" id="S4RJSJML" />
+			<command name="软件清单" id="S4RJQD" />
+			<command name="机械设计文件封面" id="S4JXSJFM" />
+			<command name="机械设计文件目录" id="S4JXSJML" />
+			<command name="机械零、部件明细表" id="S4JXMXB" />
+			<command name="装配图" id="S4ZPT" />
+			<command name="零部件" id="S4LBJ" />
+			<command name="外购件汇总表" id="S4WGZB" />
+			<command name="通(借）用件汇总表" id="S4TYJZB" />
+			<command name="机械成套组成规范表（空）" id="S4JXCTZC" />
+			<command name="产品机械设计文件归档目录" id="S4JXSJGD" />
+			<command name="模件设计文件封面" id="S4MJSJFM" />
+			<command name="模件设计文件总目录" id="S4MJSJML" />
+			<command name="电气功能模件型号名称申请表" id="S4DQGNMJSQ" />
+			<command name="单模件设计" id="S4DMJ" />
+			<command name="单模件测试用例设计" id="S4DMJCS" />
+			<command name="单模件测试方案与计划" id="S4DMJCSF" />
+			<command name="单模件测试执行日志" id="S4DMJCSR" />
+			<command name="模件原理图" id="S4MJ" />
+			<command name="装焊图" id="S4ZHT" />
+			<command name="模件ERP编码申请表" id="S4MJERPSQ" />
+			<command name="元件明细表" id="S4YJMXB" />
+			<command name="印制板电子文档目录" id="S4YSWDML" />
+			<command name="印制板文件（PCB文件、SCH文件）" id="S4PCBFILE" />
+			<command name="单模件软件源码与执行程序" id="S4DMJYM" />
+			<command name="单模件软件源码编译说明" id="S4DMJYMBY" />
+			<command name="模件软件设计文件目录" id="S4MJRJSJML" />
+			<command name="单模件软件清单" id="S4DMJRJ" />
+			<command name="电气功能模件设计文件归档目录" id="S4DQMJGDML" />
+			<command name="装置电气设计文件封面" id="S4ZZDQWJFM" />
+			<command name="装置设计文件总目录" id="S4ZZSJWJML" />
+			<command name="电气成套组成规范表" id="S4DQCTGFB" />
+			<command name="模件目录" id="S4MJML" />
+			<command name="印制板目录" id="S4PCBML" />
+			<command name="装置电原理图封面" id="S4ZZFM" />
+			<command name="装置电原理图目录" id="S4ZZML" />
+			<command name="方框图" id="S4FKT" />
+			<command name="面板电气布置图" id="S4MBT" />
+			<command name="背板端子图" id="S4BBDZT" />
+			<command name="变压器绕制图" id="S4BYQRZ" />
+			<command name="电气材料表封面" id="S4DQCLFM" />
+			<command name="电气材料表目录" id="S4DQCLML" />
+			<command name="装焊图封面" id="S4ZHTFM" />
+			<command name="装焊图目录" id="S4ZHTML" />
+			<command name="接线图（表）封面" id="S4JXTFM" />
+			<command name="接线图（表）目录" id="S4JXTML" />
+			<command name="总接线图" id="S4ZXT" />
+			<command name="装置软件设计文件目录" id="S4ZZRJML" />
+			<command name="装置软件清单" id="S4ZZRJQD" />
+			<command name="软件源代码与执行程序" id="S4RJYDM" />
+			<command name="源代码说明" id="S4YDMSM" />
+			<command name="源代码编译说明" id="S4YDMBY" />
+			<command name="使用说明书（操作手册）" id="S4SYSM" />
+			<command name="技术说明书（用户手册）" id="S4JSSM" />
+			<command name="产品说明书归档、更改申请表" id="S4CPSQB" />
+			<command name="装置检验规范" id="S4ZZJYGF" />
+			<command name="检测大纲及记录" id="S4JCDGJL" />
+			<command name="产品电气设计文件归档目录" id="S4CPDQSJML" />
+			<command name="测试执行日志(集成/系统)" id="S4cszxrj" />
+			<command name="测试总结报告（单模件/单元、集成、系统）" id="S4CCZJBG" />
+			<command name="测试缺陷报告" id="S4CSQXBG" />
+			<command name="样机试制报告" id="S4YJSZBG" />
+			<command name="工艺文件目录（装置）" id="S4GYWJML" />
+			<command name="工艺文件目录（模件）" id="S4GYWJMLMJ" />
+			<command name="电气工艺路线单" id="S4GYLX" />
+			<command name="机械装配工艺路线单" id="S4JXZPGYLXD" />
+			<command name="单板调试工艺路线单" id="S4DBGYLXD" />
+			<command name="工艺 流程控制表" id="S4GYLC" />
+			<command name="电气工艺卡" id="S4GYKP" />
+			<command name="装配工艺卡" id="S4ZPGYK" />
+			<command name="单板调试工艺卡" id="S4DBTSGYK" />
+			<command name="产品工艺设计文件归档目录" id="S4GYSJML" />
+			<command name="新品工艺试制报告" id="S4XPGYBG" />	
+			<command name="模块开发卷宗" id="S4MKKFJZ" />	
+			<command name="设计验证报告" id="S4SJYZBG" />
+			       	 <!-- 项目文档   研发文档  D阶段（试运行）-->
+			<command name="第三方系统级检测报告（型式试验、动模、电磁兼容、软件性能）" id="S4DSFXT" />
+			<command name="系统级科技查新报告" id="S4XTKJ" />
+			<command name="质量检验委托合同（南瑞)" id="S4ZLJYWT" />
+			<command name="研制报告（含技术总结报告与工作总结报告）" id="S4yzbg" />
+			<command name="技术总结报告" id="S4JSZJBG" />
+			<command name="工作总结报告" id="S4GZZJBG" />
+			<command name="工艺总结报告" id="S4GYZJBG" />
+			<command name="第三方检测试验报告（型式试验、动模、电磁兼容、软件性能）" id="S4DSFJCBG" />
+			<command name="科技查新委托" id="S4KJCXWT" />
+			<command name="科技查新报告" id="S4KJCXBG" />
+			<command name="试运行报告/用户使用报告" id="S4YHSYBG" />
+			<command name="专利著作申请文件" id="S4ZLSQ" />
+			<command name="出厂用文件、图样目录" id="S4CCWJ" />
+			<command name="装箱清单" id="S4ZXQD" />
+			<command name="备品、备件清单" id="S4BJQD" />
+			<command name="产品简介" id="S4CPJJ" />
+			<command name="试验申请表（SAC）" id="S4SYSQ" />
+			<command name="检验委托书(南瑞)" id="S4JYWTS" />
+			<command name="质量检验委托合同（南瑞）" id="S4ZLJYHT" />
+			<command name="试验委托单（电科院）" id="S4SYWTD" />
+			<command name="技术说明书-软件（用户手册）" id="S4JSSMSRJ" />
+			<command name="使用说明书-装置" id="S4SYSMSZZ" />
+			<command name="产品简介-软件" id="S4CPJJRJ" />
+       	 <!-- 项目文档   研发文档  E阶段（鉴定）-->
+			<command name="鉴定会-软件产品技术文件归档目录" id="S4jdhrjcp" />
+			<command name="标准化审查报告" id="S4BZHSC" />
+			<command name="鉴定证书" id="S4JDZS" />
+			<command name="鉴定会技术资料审查报告" id="S4JDSCBG" />
+			<command name="鉴定会专家测试报告" id="S4JDZJCC" />
+			<command name="鉴定会代表名单（鉴定会专家名单） " id="S4JDDB" />
+			<command name="鉴定会鉴定结论" id="S4JDJL" />
+			<command name="鉴定会-装置产品技术文件归档目录" id="S4JDGDML" />
+			<command name="科技成果鉴定申请" id="S4KJJDSQ" />
+			<command name="科技成果登记表" id="S4KJCGDJB" />
+			<command name="技术经济效益分析报告" id="S4JJXYFX" />
+			<command name="设计输入评审结论执行情况说明" id="S4SJSRPSJLZX" />
+			<command name="国内外同类技术对比分析报告" id="S4GJSDBFX" />
+			<command name="新产品新技术鉴定验收申请表" id="S4XCPJDSQB" />
+			<command name="质量检验报告" id="S4ZLJYBG" />
+       	 <!-- 项目文档   研发文档  F阶段（归档）-->
+			<command name="A2图样" id="S4A2TY" />
+			<command name="A3图样" id="S4A3TY" />
+			<command name="A3a图样" id="S4A3aTY" />
+		    <command name="A4图样" id="S4A4TY" />  
+			<command name="新产品科技查新专利查询表" id="S4ZLCXB" />    
+			<command name="查新委托书（电力信息中心）" id="S4CXWTS" />
+			<command name="进度监控汇报" id="S4JDJKHB" />
+			<command name="会议纪要" id="S4HYJY" />
+			<command name="会议签到表" id="S4HYQDB" />
+			<command name="配置审计检查单及报告" id="S4PZSJJCBG" />
+			<command name="技术支持单" id="S4JSZC" />
+		 <!-- 项目文档   研发文档  华电集团项目文档 -->
+			<command name="中国华电集团公司技术方案评审意见" id="S4HDJSFAPS" />
+			<command name="中国华电集团公司技术方案审查PPT" id="S4HDJSFASCPPT" />
+			<command name="中国华电集团公司科技项目经费决算表" id="S4HDKJXMJFJSB" />
+		    <command name="中国华电集团公司科技项目可行性研究报告" id="S4HDKJKXYJBG" />  
+			<command name="中国华电集团公司科技项目申请书" id="S4HDKJSQB" />
+			<command name="中国华电集团公司科技项目研究进展月报表" id="S4HDKJXMJZYB" />  
+            <command name="中国华电集团公司科技项目验收申请表" id="S4HDKJYSSQB" />   
+            <command name="中国华电集团公司科技项目验收意见" id="S4HDKJXMYSYJ" />   
+            <command name="中国华电集团公司立项审查模板PPT" id="S4HDLXSCMBPPT" />   
+		    <command name="中国华电集团公司验收PPT" id="S4HDYSPPT" />   	   	
+       	 <!-- 项目文档  工程设计文档  技术资料 -->
+			<command name="技术协议书" id="S4JSXYS" />
+			<command name="合同评审表" id="S4HTPSB" />
+			<command name="设计员参考图或技术图" id="S4DJCKT" />
+			<command name="合同" id="S4pact" />
+       	 <!-- 项目文档  工程设计文档  工程设计 -->		 
+		    <command name="电气设计图" id="S4DQSJT" />
+       	 <!-- 项目文档  工程设计文档  出厂文件资料 -->	
+			<command name="箱件清单或装箱清单" id="S4XJQD" />
+			<command name="出厂文件目录" id="S4CCML" />
+			<command name="单装置装箱清单" id="S4DZZQD" />
+			<command name="工程出厂附件清单" id="S4CGCCQD" />
+       	 <!-- 项目文档  工程设计文档  归档资料 -->		 
+			<command name="请购单" id="S4QGD" />
+			<command name="电话记录单" id="S4GCLLQD" />
+			<command name="会议纪要" id="S4Msummary" />
+       	 <!-- 项目文档  工程设计文档  售后服务文档 -->			 
+	        <command name="用户（来访、来电、来函和接待等）登记表" id="S4YHDJB" />
+       	 <!-- 项目文档  工程设计文档  工程更改 -->		 
+			<command name="屏柜/装置/插件修改通知单" id="S4PGTZD" />
+			<command name="工程更改单（热控）" id="S4ECOrder" />
+			<command name="合同修改通知单" id="S4HTXGTZD" />
+       	 <!-- 物料 -->		
+			<command name="成品" id="S4CP" />
+			<command name="空柜" id="S4TW" />
+			<command name="电气柜" id="S4ELECC" />
+			<command name="自主研发装置及设备" id="S4DEC" />
+			<command name="工程装置" id="S4ROXE" />
+			<command name="电子元器件" id="S4ECOMP" />
+			<command name="非电子元器件" id="S4NECOMP" />
+			<command name="外购工程配套物品" id="S4SSCMM" />
+			<command name="外购合同专用物料" id="S4SSCOM" />
+			<command name="自主研发类插件及功能模块" id="S4PLG" />
+			<command name="金工件" id="S4MP" />
+			<command name="费用" id="S4COST" />
+			<command name="外协费用" id="S4OCOST" />
+			<command name="选件类" id="S4OPC" />
+			<command name="电气一次性物料" id="S4DQDM" />
+			<command name="热控一次性物料" id="S4RKDM" />
+       	 <!-- 项目 -->	      	
+			<command name="工程项目" id="S4Gcproj" />
+			<command name="研发项目" id="S4Yfproj" />			
+       	 <!-- 物料申请 -->	   
+			<command name="电气功能模件型号名称申请表" id="S4MZ_Mjapp" />
+			<command name="产品型号名称申请表" id="S4MZ_Cpapp" />
+			<command name="研试产品需求单" id="S4MZ_Wgjapp" />
+			<command name="美卓物料编码申请单" id="S4MZ_Yqjapp" />
+			<command name="研究中心/电网物料申请单" id="S4MZ_Cwlapp" />
+		 <!--	
+		    <command name="美卓一次性物料申请单" id="S4MZ_Ycxapp" />
+			<command name="电网非器件申请单" id="S4DW_Fqjapp" />
+			<command name="电网元器件申请单" id="S4DW_Yqjapp" />
+		 -->	
+       	 <!-- 其他 -->	
+			<command name="美卓技术通告" id="S4MZ_Jstg" />
+			<command name="研究院技术通告" id="S4YJY_Jstg" />	
+       	 <!-- 右键菜单项目令号赋值 -->
+       	 <command name="项目组成员" id="xmzcy" />
+       	 <command name="项目令号赋值" id="xmlhfz" />
+       	 <command name="生成设计更改单附件 " id="sjggsjjcj" />
+       	 <command name="链接到SVN " id="ljdsvn" />
+       	 <command name="订单行物料创建 " id="ddhwlcj" />
+       	 <command name="项目跟踪汇总" id="xmgzhz" />
+         <command name="导出Word文件" id="dcword" />
+       	 <command name="工序号选择" id="gxhxz" />
+       	 <command name="创建BOM视图" id="cjbomst" />
+       	 <command name="缺陷报告汇总" id="qxbghz" />
+       	 <command name="物料汇总" id="wlhz" /><!-- ly做的修改  -->
+       	 <!-- 更改所有权 -->
+       	 <command name="更改所有权" id="ggsyq" />
+		 <!-- 项目资料裁剪  -->
+       	 <command name="项目资料裁剪" id="cjxmzl" />
+       	 <!-- 文件批量下载  -->
+       	 <command name="文件批量下载" id="wjplxz" />
+       	 
+       	 <!-- ERP集成MyTeamcenter菜单  -->
+       	 <command name="物料新建传递" id="wlxjcd" />
+       	 <command name="物料新建传递检查" id="wlxjcdjc" />
+       	 <command name="物料修改传递" id="wlxgcd" />
+       	 <command name="物料修改传递检查" id="wlxgcdjc" />     	 
+       	 <command name="ECO生成" id="ecocdcc" />
+       	 <command name="ECO传递" id="ecocd" />
+       	 <command name="ECO检查" id="ecojc" />
+       	 <command name="生成采购申请单" id="sccgsqd" /><!-- ly做的修改  -->
+       	 <command name="采购申请单传递" id="cgsqdcd" />
+       	 <command name="采购申请单传递检查" id="cgsqdcdjc" />
+       	 <command name="合同接收及更新" id="htjs" />
+       	 <command name="工艺路线配置" id="gylxpz" />
+       	 <command name="工程BOM及工艺路线批量传递" id="gcbomjgylxplcd" />
+       	 <command name="工程BOM及工艺路线批量检查" id="gcbomjgylxpljc" />
+       	 <!-- ERP集成PSE菜单  -->
+       	 <command name="原型BOM传递" id="yxbomcd" />
+       	 <command name="原型BOM传递检查" id="yxbomcdjc" />
+       	 <command name="生产BOM传递" id="scbomcd" />
+       	 <command name="生产BOM传递检查" id="scbomcdjc" />
+       	 <command name="工艺路线配置及传递" id="gylxpzjcd" />
+       	 <command name="工艺路线传递检查" id="gylxcdjc" />
+      	 
+	</extension>
+	
+	
+	<extension point="org.eclipse.ui.handlers">
+		<!-- ERP集成  -->
+		<handler commandId="wlxjcd" class="com.origin.rac.sac.handler.ItemSendInfoHandler" />
+		<handler commandId="wlxjcdjc" class="com.origin.rac.sac.handler.ItemCheckInfoHandler" />
+		<handler commandId="wlxgcd" class="com.origin.rac.sac.handler.ItemChangeSendInfoHandler" />
+		<handler commandId="wlxgcdjc" class="com.origin.rac.sac.handler.ItemChangeCheckInfoHandler" />
+		<handler commandId="ecocd" class="com.origin.rac.sac.handler.S4ECOToErpHandler" />
+		<handler commandId="ecocdcc" class="com.origin.rac.sac.handler.S4ECOHandler" />
+		<handler commandId="ecojc" class="com.origin.rac.sac.handler.S4ECOCheckingHandler" />
+		<handler commandId="sccgsqd" class="com.gdnz.sac1.menu.S4CGSQDSCHandler" /><!-- ly做的修改  -->
+		<handler commandId="cgsqdcd" class="com.origin.rac.sac.handler.S4CGSQDCDHandler" />
+		<handler commandId="cgsqdcdjc" class="com.origin.rac.sac.handler.S4CGSQDCDCJHandler" />
+		<handler commandId="htjs" class="com.origin.rac.sac.handler.S4HTJSHandler" />
+		<handler commandId="yxbomcd" class="com.origin.rac.sac.handler.SendBomInfoHandler" />
+		<handler commandId="yxbomcdjc" class="com.origin.rac.sac.handler.SendBomInfoHandler" />
+		<handler commandId="scbomcd" class="com.origin.rac.sac.handler.SendBomInfoHandler" />
+		<handler commandId="scbomcdjc" class="com.origin.rac.sac.handler.SendBomInfoHandler" />
+		<handler commandId="gylxpzjcd" class="com.origin.rac.sac.handler.S4GYLXToErpHandler" />
+		<handler commandId="gylxcdjc" class="com.origin.rac.sac.handler.S4GYLXCheckingHandler" />
+		<handler commandId="gylxpz" class="com.origin.rac.sac.handler.S4GYLXPZHandler" />
+		<handler commandId="gcbomjgylxplcd" class="com.origin.rac.sac.handler.BatchSendGylxAndBomHandler" />
+		<handler commandId="gcbomjgylxpljc" class="com.origin.rac.sac.handler.BatchCheckGylxAndBomHandler" />
+	    <!-- 项目资料裁剪  -->
+		<handler commandId="cjxmzl" class="com.origin.rac.sac.handler.CreateProjectInfoHandler" />
+		<!-- 文件批量下载  -->
+		<handler commandId="wjplxz" class="com.origin.rac.sac.handler.S4AutoCADtoPDFHandler" />
+	     <!-- 右键菜单项目令号赋值 -->
+		<handler commandId="xmzcy" class="com.origin.rac.sac.handler.ProjectMemberHandler" />
+		<handler commandId="xmlhfz" class="com.origin.rac.sac.handler.SetProjectIdHandler" />
+		<handler commandId="sjggsjjcj" class="com.origin.rac.sac.handler.SJGGDatesetCreateHandler" />
+		<handler commandId="ljdsvn" class="com.origin.rac.sac.handler.ConnectToSVNHandler" />
+		<handler commandId="ddhwlcj" class="com.origin.rac.sac.handler.DDItemCreateHandler" />
+		<handler commandId="xmgzhz" class="com.origin.rac.sac.handler.ProjectTraceHandler" />
+		<handler commandId="dcword" class="com.origin.rac.sac.handler.S4ExportWordHandler" />
+		<handler commandId="gxhxz" class="com.origin.rac.sac.handler.S4GXHSelectHandler" />
+		<handler commandId="cjbomst" class="com.origin.rac.sac.handler.CreateBOMViewHandler" />
+		<handler commandId="qxbghz" class="com.origin.rac.sac.handler.CreateDefectTable_Handler" />
+		<handler commandId="wlhz" class="com.gdnz.sac1.menu.ExportWuLiaoHandler" />
+		<!-- 更改所有权 -->
+		<handler commandId="ggsyq" class="com.origin.rac.sac.handler.ChangeOwnerHandler" />
+       	 <!-- 项目文档   研发文档  管理-->
+		<handler commandId="S4XMZTBG" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4PZJXFBBG" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4PZZTBG" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4XMCYGZ" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4XMWTFXGZ" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4XMQA" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4XQJZ" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4ZSFZS" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4LXJCB" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4XQPSBG" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4PCBPS" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4SJPSBG" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4CPBZSC" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4CSYLSJ" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4CSJHBG" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4YJPSBG" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4PMCAF" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4PASQB" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4SJGG" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4SJGGYZ" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4RJGGTZD" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4TYDZB" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4CPSMS" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4XMZLBZ" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4PZXQB" class="com.origin.rac.sac.handler.ItemCreate_Handler" />	
+       	 <!-- 项目文档   研发文档  A阶段（立项）-->
+		<handler commandId="S4lxsqs" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4PFSR" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4XQSJ" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4PA" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4SJRWS" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4XMGSB" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4PAWBS" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4GCCJ" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4JFWB" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4XMZCZ" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4XMZCZQ" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4XMZCC" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4PMQXB" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4YXHTS" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4PMKJCXB" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4CXBG" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4PSB" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+        <handler commandId="S4XMLXJCPFB" class="com.origin.rac.sac.handler.ItemCreate_Handler" />		
+       	 <!-- 项目文档   研发文档  B阶段（需求与设计）-->
+		<handler commandId="S4SJKSMS" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4RJXQ" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4YJXQ" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4DBYJXQ" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4XQBG" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4ZZZT" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4ZZXX" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4RJGY" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4RJSJX" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4CPBZ" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4GYFA" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4DQGYFA" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4ZZXZB" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4CPXHSQ" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4XMTG" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4XMCS" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4CSFA" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4SJYQ" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4YLTFZ" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4GJJS" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4MJJS" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4SWMX" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4JSGXSM" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4ZZXTFKT" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4DMKYLT" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4GJFAJCPFB" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4TYSJWJFM" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+       	 <!-- 项目文档   研发文档  C阶段（样机试制）-->
+		<handler commandId="S4XTSJWJF" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4XTSJWJJ" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4XTJCGF" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4XTJYGF" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4XTCPSJG" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4RJCPGDML" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4RJSJFM" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4RJSJML" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4RJQD" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4JXSJFM" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4JXSJML" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4JXMXB" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4ZPT" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4LBJ" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4WGZB" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4TYJZB" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4JXCTZC" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4JXSJGD" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4MJSJFM" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4MJSJML" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4DQGNMJSQ" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4DMJ" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4DMJCS" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4DMJCSF" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4DMJCSR" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4MJ" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4ZHT" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4MJERPSQ" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4YJMXB" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4YSWDML" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4PCBFILE" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4DMJYM" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4DMJYMBY" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4MJRJSJML" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4DMJRJ" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4DQGNPS" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4DQMJGDML" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4ZZDQWJFM" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4ZZSJWJML" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4DQCTGFB" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4MJML" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4PCBML" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4ZZFM" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4ZZML" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4FKT" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4MBT" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4BBDZT" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4BYQRZ" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4DQCLFM" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4DQCLML" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4ZHTFM" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4ZHTML" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4JXTFM" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4JXTML" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4ZXT" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4ZZRJML" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4ZZRJQD" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4RJYDM" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4YDMSM" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4YDMBY" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4SYSM" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4JSSM" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4CPSQB" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4ZZJYGF" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4JCDGJL" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4CPDQSJML" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4cszxrj" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4CCZJBG" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4CSQXBG" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4YJSZBG" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4GYWJML" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4GYWJMLMJ" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4GYLX" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4JXZPGYLXD" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4DBGYLXD" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4GYLC" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4GYKP" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4ZPGYK" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4DBTSGYK" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4GYSJML" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4XPGYBG" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4MKKFJZ" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4SJYZBG" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+       	 <!-- 项目文档   研发文档  D阶段（试运行）-->
+		<handler commandId="S4DSFXT" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4XTKJ" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4ZLJYWT" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4yzbg" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4JSZJBG" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4GZZJBG" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4GYZJBG" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4DSFJCBG" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4KJCXWT" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4KJCXBG" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4YHSYBG" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4ZLSQ" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4CCWJ" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4ZXQD" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4BJQD" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4CPJJ" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4SYSQ" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4JYWTS" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4ZLJYHT" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4SYWTD" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4JSSMSRJ" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4SYSMSZZ" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4CPJJRJ" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+       	 <!-- 项目文档   研发文档  E阶段（鉴定）-->
+		<handler commandId="S4jdhrjcp" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4BZHSC" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4JDZS" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4JDSCBG" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4JDZJCC" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4JDDB" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4JDJL" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4JDGDML" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4KJJDSQ" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4KJCGDJB" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4JJXYFX" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4SJSRPSJLZX" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4GJSDBFX" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4XCPJDSQB" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4ZLJYBG" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+       	 <!-- 项目文档   研发文档  F阶段（归档）-->
+		<handler commandId="S4A2TY" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4A3TY" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4A3aTY" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4A4TY" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4ZLCXB" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4CXWTS" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4JDJKHB" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4HYJY" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4HYQDB" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4PZSJJCBG" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4JSZC" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<!-- 项目文档   研发文档  华电集团项目文档 -->
+		<handler commandId="S4HDJSFAPS" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4HDJSFASCPPT" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4HDKJXMJFJSB" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4HDKJKXYJBG" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4HDKJSQB" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4HDKJXMJZYB" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4HDKJYSSQB" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4HDKJXMYSYJ" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4HDLXSCMBPPT" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		<handler commandId="S4HDYSPPT" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+       	 <!-- 项目文档  工程设计文档  技术资料 -->
+			<handler commandId="S4JSXYS" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+			<handler commandId="S4HTPSB" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+			<handler commandId="S4DJCKT" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+			<handler commandId="S4pact" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+       	 <!-- 项目文档  工程设计文档  工程设计 -->		 
+			<handler commandId="S4DQSJT" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+       	 <!-- 项目文档  工程设计文档  出厂文件资料 -->	
+			<handler commandId="S4XJQD" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+			<handler commandId="S4CCML" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+			<handler commandId="S4DZZQD" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+			<handler commandId="S4CGCCQD" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+       	 <!-- 项目文档  工程设计文档  归档资料 -->		 
+			<handler commandId="S4GCLLQD" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+			<handler commandId="S4Msummary" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+			<handler commandId="S4QGD" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+       	 <!-- 项目文档  工程设计文档  售后服务文档 -->			 
+			<handler commandId="S4YHDJB" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+       	 <!-- 项目文档  工程设计文档  工程更改 -->		 
+			<handler commandId="S4PGTZD" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+			<handler commandId="S4ECOrder" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+			<handler commandId="S4HTXGTZD" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+       	 <!-- 物料 -->		
+			<handler commandId="S4CP" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+			<handler commandId="S4TW" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+			<handler commandId="S4ELECC" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+			<handler commandId="S4DEC" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+			<handler commandId="S4ROXE" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+			<handler commandId="S4ECOMP" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+			<handler commandId="S4NECOMP" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+			<handler commandId="S4SSCMM" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+			<handler commandId="S4SSCOM" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+			<handler commandId="S4PLG" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+			<handler commandId="S4MP" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+			<handler commandId="S4COST" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+			<handler commandId="S4OCOST" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+			<handler commandId="S4OPC" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+			<handler commandId="S4DQDM" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+			<handler commandId="S4RKDM" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+       	 <!-- 项目 -->	      	
+			<handler commandId="S4Gcproj" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+			<handler commandId="S4Yfproj" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+       	 <!-- 物料申请 -->	   
+			<handler commandId="S4MZ_Mjapp" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+			<handler commandId="S4MZ_Cpapp" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+			<handler commandId="S4MZ_Wgjapp" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+			<handler commandId="S4MZ_Yqjapp" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+			<handler commandId="S4MZ_Cwlapp" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		 <!--	
+		    <handler commandId="S4MZ_Ycxapp" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+			<handler commandId="S4DW_Fqjapp" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+			<handler commandId="S4DW_Yqjapp" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+		 -->
+       	 <!-- 其他 -->	
+			<handler commandId="S4MZ_Jstg" class="com.origin.rac.sac.handler.ItemCreate_Handler" />
+			<handler commandId="S4YJY_Jstg" class="com.origin.rac.sac.handler.ItemCreate_Handler" />	
+  	</extension>	
+  	
+  	<extension
+         point="org.eclipse.ui.menus">
+         <!-- 在Home下新建右键菜单 -->
+		<menuContribution 
+         		locationURI="popup:org.eclipse.ui.popup.any">
+         		<command
+           			 commandId="xmzcy"
+           			 label="项目组成员"
+           			 mnemonic="S"
+            		 id="xmzcy">
+            			<visibleWhen>
+             			  <reference
+                  				definitionId="com.teamcenter.rac.ui.inMainPerspective">
+               			  </reference>
+           			    </visibleWhen>
+         		</command>
+         		<command
+           			 commandId="xmlhfz"
+           			 label="项目令号赋值"
+           			 mnemonic="S"
+            		 id="xmlhfz">
+            			<visibleWhen>
+             			  <reference
+                  				definitionId="com.teamcenter.rac.ui.inMainPerspective">
+               			  </reference>
+           			    </visibleWhen>
+         		</command>
+         		<command
+           			 commandId="sjggsjjcj"
+           			 label="生成设计更改单附件"
+           			 mnemonic="S"
+            		 id="sjggsjjcj">
+            			<visibleWhen>
+             			  <reference
+                  				definitionId="com.teamcenter.rac.ui.inMainPerspective">
+               			  </reference>
+           			    </visibleWhen>
+         		</command>
+         		<command
+           			 commandId="ljdsvn"
+           			 label="链接到SVN"
+           			 mnemonic="S"
+            		 id="ljdsvn">
+            			<visibleWhen>
+             			  <reference
+                  				definitionId="com.teamcenter.rac.ui.inMainPerspective">
+               			  </reference>
+           			    </visibleWhen>
+         		</command>
+         		<command
+           			 commandId="ddhwlcj"
+           			 label="订单行物料创建"
+           			 mnemonic="S"
+            		 id="ddhwlcj">
+            			<visibleWhen>
+             			  <reference
+                  				definitionId="com.teamcenter.rac.ui.inMainPerspective">
+               			  </reference>
+           			    </visibleWhen>
+         		</command>
+         		<command
+           			 commandId="xmgzhz"
+           			 label="项目跟踪汇总"
+           			 mnemonic="S"
+            		 id="xmgzhz">
+            			<visibleWhen>
+             			  <reference
+                  				definitionId="com.teamcenter.rac.ui.inMainPerspective">
+               			  </reference>
+           			    </visibleWhen>
+         		</command>
+         		
+         		<command
+           			 commandId="dcword"
+           			 label="导出Word文件"
+           			 mnemonic="S"
+            		 id="dcword">
+            			<visibleWhen>
+             			  <reference
+                  				definitionId="com.teamcenter.rac.ui.inMainPerspective">
+               			  </reference>
+           			    </visibleWhen>
+         		</command>
+         		<command
+           			 commandId="gxhxz"
+           			 label="工序号选择"
+           			 mnemonic="S"
+            		 id="gxhxz">
+            			<visibleWhen>
+             			  <reference
+                  				definitionId="com.teamcenter.rac.pse.inMainView">
+               			  </reference>
+           			    </visibleWhen>
+         		</command>
+         		<command
+           			 commandId="cjbomst"
+           			 label="创建BOM视图"
+           			 mnemonic="S"
+            		 id="cjbomst">
+            			<visibleWhen>
+             			  <reference
+                  				definitionId="com.teamcenter.rac.ui.inMainPerspective">
+               			  </reference>
+           			    </visibleWhen>
+         		</command>
+         		<command
+           			 commandId="qxbghz"
+           			 label="缺陷报告汇总"
+           			 mnemonic="S"
+            		 id="qxbghz">
+            			<visibleWhen>
+             			  <reference
+                  				definitionId="com.teamcenter.rac.ui.inMainPerspective">
+               			  </reference>
+           			    </visibleWhen>
+         		</command>
+         		<command
+           			 commandId="wlhz"
+           			 label="物料汇总"
+           			 mnemonic="S"
+            		 id="wlhz">
+            			<visibleWhen>
+             			  <reference
+                  				definitionId="com.teamcenter.rac.ui.inMainPerspective">
+               			  </reference>
+           			    </visibleWhen>
+         		</command>
+      	</menuContribution>
+	
+		<menuContribution
+            locationURI="menu:org.eclipse.ui.main.menu">
+         <menu 
+               id="customization"
+               label="国电南自PLM客户化菜单">
+            <separator
+                  name="group1"
+                  visible="true">
+            </separator>
+          
+         	
+         </menu>
+        </menuContribution>
+        <menuContribution
+            locationURI="menu:org.eclipse.ui.main.menu">
+         <menu 
+               id="erpjc"
+               label="ERP集成">
+            <separator
+                  name="group2"
+                  visible="true">
+            </separator>
+         </menu>
+        </menuContribution>
+        <menuContribution
+            locationURI="menu:org.eclipse.ui.main.menu">
+         <menu 
+               id="gylxjbomcd"
+               label="工艺路线及BOM传递">
+            <separator
+                  name="group3"
+                  visible="true">
+            </separator>
+         </menu>
+        </menuContribution>
+<menuContribution
+ locationURI="menu:customization?after=group1">            
+<menu id="xm" label="项目">
+<menu id="yfxm" label="研发项目">
+<command commandId="S4Yfproj" label="创建项目" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4YFprojXJ1"/></iterate></not></with></and></visibleWhen></command>
+
+<separator name="Knowbase_group10" visible="true"></separator> 
+			<command
+               		commandId="cjxmzl"
+               		label="项目资料裁剪"
+               		style="push">
+            			<visibleWhen>
+            				<and>
+            					<or>
+									<reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/>
+ 								</or>
+ 								<with variable="rac_command_suppression">
+                    				<not>
+                        				<iterate operator="or">
+                            				<equals value="cjxmzl"/>
+                        				</iterate>
+                    				</not>
+                				</with>
+            				</and>
+            			</visibleWhen>
+        	</command>
+<separator name="Knowbase_group9" visible="true"></separator> 
+<menu id="yfxmwd" label="创建项目文档">
+<menu id="gl" label="管理">
+<separator name="Knowbase_group1" visible="true"></separator>
+<command commandId="S4XMZTBG" label="项目状态报告/研发月报（进度、问题、风险、度量数据）" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4XMZTBG"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4PZJXFBBG" label="配置基线发布报告" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4PZJXFBBG"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4PZZTBG" label="配置状态报告" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4PZZTBG"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4XMCYGZ" label="项目成员工作周报" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4XMCYGZ"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4XMWTFXGZ" label="项目问题风险跟踪表" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4XMWTFXGZ"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4XMQA" label="项目QA/QC检查审计单" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4XMQA"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4XQJZ" label="需求跟踪矩阵" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4XQJZ"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4ZSFZS" label="正式/非正式评审报告" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4ZSFZS"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4LXJCB" label="立项评审决策表" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4LXJCB"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4XQPSBG" label="需求评审报告" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4XQPSBG"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4PCBPS" label="PCB评审决策表" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4PCBPS"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4SJPSBG" label="设计评审报告（概设/详设）" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4SJPSBG"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4CPBZSC" label="产品标准审查记录" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4CPBZSC"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4CSYLSJ" label="测试用例设计评审报告" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4CSYLSJ"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4CSJHBG" label="测试计划与设计评审报告" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4CSJHBG"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4DQGNPS" label="电气功能模件验收评审报告" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4DQGNPS"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4YJPSBG" label="样机评审报告" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4YJPSBG"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4PMCAF" label="项目计划更改/暂停/撤销申请表" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4PMCAF"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4PASQB" label="新产品科研试制计划更改申请表" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4PASQB"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4SJGG" label="设计更改申请表" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4SJGG"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4SJGGYZ" label="设计更改验证报告" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4SJGGYZ"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4RJGGTZD" label="软件更改通知单" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4RJGGTZD"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4TYDZB" label="图样及技术文件更改对照表" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4TYDZB"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4CPSMS" label="产品说明书归档及更改申请表" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4CPSMS"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4XMZLBZ" label="项目质量保证月报" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4XMZLBZ"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4PZXQB" label="配置权限变更申请表" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4PZXQB"/></iterate></not></with></and></visibleWhen></command>
+</menu> 
+<separator name="Knowbase_group2" visible="true"></separator> 
+<menu id="Ajdlx" label="A阶段（立项）">
+<command commandId="S4lxsqs" label="企业级鉴定（小结）类新产品立项申请表" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4lxsqs"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4PFSR" label="可行性研究报告" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4PFSR"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4XQSJ" label="需求收集报告" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4XQSJ"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4PA" label="鉴定类新产品立项申请表" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4PA"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4SJRWS" label="设计任务书" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4SJRWS"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4XMGSB" label="项目估算表" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4XMGSB"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4PAWBS" label="项目WBS" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4PAWBS"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4GCCJ" label="过程裁剪表" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4GCCJ"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4JFWB" label="交付物裁剪表" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4JFWB"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4XMZCZ" label="项目支撑子计划/度量（MA）计划" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4XMZCZ"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4XMZCZQ" label="项目支撑子计划/质量（QA）保证计划" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4XMZCZQ"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4XMZCC" label="项目支撑子计划/配置（CM）计划" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4XMZCC"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4PMQXB" label="项目配置结构权限表" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4PMQXB"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4YXHTS" label="意向技术合同书" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4YXHTS"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4PMKJCXB" label="立项科技查新表" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4PMKJCXB"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4CXBG" label="查新报告" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4CXBG"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4PSB" label="评审表" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4PSB"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4XMLXJCPFB" label="项目立项决策评分表" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4XMLXJCPFB"/></iterate></not></with></and></visibleWhen></command>
+</menu> 
+<separator name="Knowbase_group3" visible="true"></separator> 
+<menu id="Bjdxqsj" label="B阶段（需求与设计）">
+<command commandId="S4SJKSMS" label="数据库设计说明书" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4SJKSMS"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4RJXQ" label="软件需求说明书" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4RJXQ"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4YJXQ" label="硬件需求说明书" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4YJXQ"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4DBYJXQ" label="单板硬件需求说明书" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4DBYJXQ"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4XQBG" label="需求变更报告" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4XQBG"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4ZZZT" label="装置总体设计" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4ZZZT"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4ZZXX" label="装置详细设计" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4ZZXX"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4RJGY" label="软件概要设计" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4RJGY"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4RJSJX" label="软件详细设计说明书（模块、类、函数、数据、界面）" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4RJSJX"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4CPBZ" label="产品标准" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4CPBZ"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4GYFA" label="机械/工艺方案" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4GYFA"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4DQGYFA" label="电气工艺方案" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4DQGYFA"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4ZZXZB" label="装置选装表" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4ZZXZB"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4CPXHSQ" label="产品型号名称申请表" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4CPXHSQ"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4XMTG" label="项目测试通过准则" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4XMTG"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4XMCS" label="项目测试用例设计（集成、系统）" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4XMCS"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4CSFA" label="测试方案设计与计划（集成、系统）" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4CSFA"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4SJYQ" label="数据要求说明书" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4SJYQ"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4YLTFZ" label="原理图仿真报告" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4YLTFZ"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4GJJS" label="关键技术仿真测试报告" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4GJJS"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4MJJS" label="模具技术规范书" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4MJJS"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4SWMX" label="三维模型文件" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4SWMX"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4JSGXSM" label="技术共享说明/通用件汇总表（或借用件汇总表）" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4JSGXSM"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4PSB" label="评审表" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4PSB"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4ZZXTFKT" label="装置系统方框图" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4ZZXTFKT"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4DMKYLT" label="单模件电原理图" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4DMKYLT"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4GJFAJCPFB" label="关键方案决策评分表" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4GJFAJCPFB"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4TYSJWJFM" label="通用设计文件封面" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4TYSJWJFM"/></iterate></not></with></and></visibleWhen></command>
+</menu> 
+<separator name="Knowbase_group4" visible="true"></separator> 
+<menu id="Cjdyjsx" label="C阶段（样机试制）">
+<command commandId="S4XTSJWJF" label="系统设计文件封面" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4XTSJWJF"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4XTSJWJJ" label="系统设计文件总目录" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4XTSJWJJ"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4XTJCGF" label="系统集成规范说明" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4XTJCGF"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4XTJYGF" label="系统检验（或验收）规范" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4XTJYGF"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4XTCPSJG" label="系统产品设计文件归档目录" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4XTCPSJG"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4RJCPGDML" label="软件产品设计文件归档目录" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4RJCPGDML"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4RJSJFM" label="软件设计文件封面" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4RJSJFM"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4RJSJML" label="软件设计文件总目录" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4RJSJML"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4RJQD" label="软件清单" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4RJQD"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4JXSJFM" label="机械设计文件封面" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4JXSJFM"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4JXSJML" label="机械设计文件目录" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4JXSJML"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4JXMXB" label="机械零、部件明细表" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4JXMXB"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4ZPT" label="装配图" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4ZPT"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4LBJ" label="零部件" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4LBJ"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4WGZB" label="外购件汇总表" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4WGZB"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4TYJZB" label="通(借）用件汇总表" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4TYJZB"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4JXCTZC" label="机械成套组成规范表（空）" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4JXCTZC"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4JXSJGD" label="产品机械设计文件归档目录" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4JXSJGD"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4MJSJFM" label="模件设计文件封面" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4MJSJFM"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4MJSJML" label="模件设计文件总目录" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4MJSJML"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4DQGNMJSQ" label="电气功能模件型号名称申请表" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4DQGNMJSQ"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4DMJ" label="单模件设计" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4DMJ"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4DMJCS" label="单模件测试用例设计" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4DMJCS"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4DMJCSF" label="单模件测试方案与计划" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4DMJCSF"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4DMJCSR" label="单模件测试执行日志" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4DMJCSR"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4MJ" label="模件原理图" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4MJ"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4BYQRZ" label="变压器绕制图" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4BYQRZ"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4ZHT" label="装焊图" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4ZHT"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4MJERPSQ" label="模件ERP编码申请表" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4MJERPSQ"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4YJMXB" label="元件明细表" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4YJMXB"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4YSWDML" label="印制板电子文档目录" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4YSWDML"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4PCBFILE" label="印制板文件（PCB文件、SCH文件）" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4PCBFILE"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4DMJYM" label="单模件软件源码与执行程序" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4DMJYM"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4DMJYMBY" label="单模件软件源码编译说明" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4DMJYMBY"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4MJRJSJML" label="模件软件设计文件目录" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4MJRJSJML"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4DMJRJ" label="单模件软件清单" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4DMJRJ"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4DQGNPS" label="电气功能模件验收评审报告" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4DQGNPS"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4DQMJGDML" label="电气功能模件设计文件归档目录" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4DQMJGDML"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4ZZDQWJFM" label="装置电气设计文件封面" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4ZZDQWJFM"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4ZZSJWJML" label="装置设计文件总目录" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4ZZSJWJML"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4DQCTGFB" label="电气成套组成规范表" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4DQCTGFB"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4MJML" label="模件目录" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4MJML"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4PCBML" label="印制板目录" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4PCBML"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4YSWDML" label="印制板电子文档目录" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4YSWDML"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4ZZFM" label="装置电原理图封面" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4ZZFM"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4ZZML" label="装置电原理图目录" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4ZZML"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4FKT" label="方框图" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4FKT"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4MBT" label="面板电气布置图" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4MBT"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4BBDZT" label="背板端子图" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4BBDZT"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4BYQRZ" label="变压器绕制图" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4BYQRZ"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4DQCLFM" label="电气材料表封面" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4DQCLFM"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4DQCLML" label="电气材料表目录" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4DQCLML"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4ZHTFM" label="装焊图封面" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4ZHTFM"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4ZHTML" label="装焊图目录" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4ZHTML"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4JXTFM" label="接线图（表）封面" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4JXTFM"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4JXTML" label="接线图（表）目录" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4JXTML"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4ZXT" label="总接线图" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4ZXT"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4ZZRJML" label="装置软件设计文件目录" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4ZZRJML"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4ZZRJQD" label="装置软件清单" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4ZZRJQD"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4RJYDM" label="软件源代码与执行程序" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4RJYDM"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4YDMSM" label="源代码说明" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4YDMSM"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4YDMBY" label="源代码编译说明" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4YDMBY"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4SYSM" label="使用说明书（操作手册）" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4SYSM"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4JSSM" label="技术说明书（用户手册）" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4JSSM"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4CPSQB" label="产品说明书归档、更改申请表" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4CPSQB"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4ZZJYGF" label="装置检验规范" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4ZZJYGF"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4JCDGJL" label="检测大纲及记录" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4JCDGJL"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4CPDQSJML" label="产品电气设计文件归档目录" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4CPDQSJML"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4cszxrj" label="测试执行日志(集成/系统)" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4cszxrj"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4CCZJBG" label="测试总结报告（单模件/单元、集成、系统）" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4CCZJBG"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4CSQXBG" label="测试缺陷报告" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4CSQXBG"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4YJSZBG" label="样机试制报告" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4YJSZBG"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4GYWJML" label="工艺文件目录（装置）" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4GYWJML"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4GYWJMLMJ" label="工艺文件目录（模件）" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4GYWJMLMJ"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4GYLX" label="电气工艺路线单" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4GYLX"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4JXZPGYLXD" label="机械装配工艺路线单" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4JXZPGYLXD"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4DBGYLXD" label="单板调试工艺路线单" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4DBGYLXD"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4GYLC" label="工艺 流程控制表" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4GYLC"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4GYKP" label="电气工艺卡" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4GYKP"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4ZPGYK" label="装配工艺卡" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4ZPGYK"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4DBTSGYK" label="单板调试工艺卡" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4DBTSGYK"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4GYSJML" label="产品工艺设计文件归档目录" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4GYSJML"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4XPGYBG" label="新品工艺试制报告" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4XPGYBG"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4PSB" label="评审表" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4PSB"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4MKKFJZ" label="模块开发卷宗" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4MKKFJZ"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4SJYZBG" label="设计验证报告" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4SJYZBG"/></iterate></not></with></and></visibleWhen></command>
+</menu> 
+<separator name="Knowbase_group5" visible="true"></separator> 
+<menu id="Djdsyx" label="D阶段（试运行）">
+<command commandId="S4DSFXT" label="第三方系统级检测报告（型式试验、动模、电磁兼容、软件性能）" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4DSFXT"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4XTKJ" label="系统级科技查新报告" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4XTKJ"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4ZLJYWT" label="质量检验委托合同（南瑞)" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4ZLJYWT"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4yzbg" label="研制报告（含技术总结报告与工作总结报告）" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4yzbg"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4JSZJBG" label="技术总结报告" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4JSZJBG"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4GZZJBG" label="工作总结报告" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4GZZJBG"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4GYZJBG" label="工艺总结报告" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4GYZJBG"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4DSFJCBG" label="第三方检测试验报告（型式试验、动模、电磁兼容、软件性能）" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4DSFJCBG"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4KJCXWT" label="科技查新委托" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4KJCXWT"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4KJCXBG" label="科技查新报告" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4KJCXBG"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4YHSYBG" label="试运行报告/用户使用报告" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4YHSYBG"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4ZLSQ" label="专利著作申请文件" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4ZLSQ"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4CCWJ" label="出厂用文件、图样目录" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4CCWJ"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4ZXQD" label="装箱清单" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4ZXQD"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4BJQD" label="备品、备件清单" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4BJQD"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4CPJJ" label="产品简介" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4CPJJ"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4SYSQ" label="试验申请表（SAC）" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4SYSQ"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4JYWTS" label="检验委托书(南瑞)" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4JYWTS"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4ZLJYHT" label="质量检验委托合同（南瑞）" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4ZLJYHT"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4SYWTD" label="试验委托单（电科院）" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4SYWTD"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4PSB" label="评审表" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4PSB"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4JSSMSRJ" label="技术说明书-软件（用户手册）" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4JSSMSRJ"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4SYSMSZZ" label="使用说明书-装置" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4SYSMSZZ"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4CPJJRJ" label="产品简介-软件" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4CPJJRJ"/></iterate></not></with></and></visibleWhen></command>
+</menu> 
+<separator name="Knowbase_group6" visible="true"></separator> 
+<menu id="Ejdjd" label="E阶段（鉴定）">
+<command commandId="S4jdhrjcp" label="鉴定会-软件产品技术文件归档目录" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4jdhrjcp"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4BZHSC" label="标准化审查报告" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4BZHSC"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4JDZS" label="鉴定证书" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4JDZS"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4JDSCBG" label="鉴定会技术资料审查报告" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4JDSCBG"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4JDZJCC" label="鉴定会专家测试报告" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4JDZJCC"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4JDDB" label="鉴定会代表名单（鉴定会专家名单） " style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4JDDB"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4JDJL" label="鉴定会鉴定结论" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4JDJL"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4JDGDML" label="鉴定会-装置产品技术文件归档目录" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4JDGDML"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4KJJDSQ" label="科技成果鉴定申请" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4KJJDSQ"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4KJCGDJB" label="科技成果登记表" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4KJCGDJB"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4PSB" label="评审表" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4PSB"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4JJXYFX" label="技术经济效益分析报告" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4JJXYFX"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4SJSRPSJLZX" label="设计输入评审结论执行情况说明" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4SJSRPSJLZX"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4GJSDBFX" label="国内外同类技术对比分析报告" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4GJSDBFX"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4XCPJDSQB" label="新产品新技术鉴定验收申请表" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4XCPJDSQB"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4ZLJYBG" label="质量检验报告" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4ZLJYBG"/></iterate></not></with></and></visibleWhen></command>
+</menu> 
+<separator name="Knowbase_group7" visible="true"></separator> 
+<menu id="Fjdgd" label="F阶段（归档）">
+<command commandId="S4A2TY" label="A2图样" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4A2TY"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4A3TY" label="A3图样" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4A3TY"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4A3aTY" label="A3a图样" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4A3aTY"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4A4TY" label="A4图样" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4A4TY"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4PSB" label="评审表" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4PSB"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4ZLCXB" label="新产品科技查新专利查询表" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4ZLCXB"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4CXWTS" label="查新委托书（电力信息中心）" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4CXWTS"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4JDJKHB" label="进度监控汇报" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4JDJKHB"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4HYJY" label="会议纪要" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4HYJY"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4HYQDB" label="会议签到表" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4HYQDB"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4PZSJJCBG" label="配置审计检查单及报告" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4PZSJJCBG"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4JSZC" label="技术支持单" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4JSZC"/></iterate></not></with></and></visibleWhen></command>
+</menu> 
+<separator name="Knowbase_group8" visible="true"></separator> 
+<menu id="HDjtwd" label="华电集团项目文档">
+<command commandId="S4HDJSFAPS" label="中国华电集团公司技术方案评审意见" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4HDJSFAPS"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4HDJSFASCPPT" label="中国华电集团公司技术方案审查PPT" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4HDJSFASCPPT"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4HDKJXMJFJSB" label="中国华电集团公司科技项目经费决算表" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4HDKJXMJFJSB"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4HDKJKXYJBG" label="中国华电集团公司科技项目可行性研究报告" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4HDKJKXYJBG"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4HDKJSQB" label="中国华电集团公司科技项目申请书" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4HDKJSQB"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4HDKJXMJZYB" label="中国华电集团公司科技项目研究进展月报表" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4HDKJXMJZYB"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4HDKJYSSQB" label="中国华电集团公司科技项目验收申请表" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4HDKJYSSQB"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4HDKJXMYSYJ" label="中国华电集团公司科技项目验收意见" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4HDKJXMYSYJ"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4HDLXSCMBPPT" label="中国华电集团公司立项审查模板PPT" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4HDLXSCMBPPT"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4HDYSPPT" label="中国华电集团公司验收PPT" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4HDYSPPT"/></iterate></not></with></and></visibleWhen></command>
+</menu> 
+</menu>  
+
+
+ 
+</menu>  
+<menu id="gcxm" label="工程项目">
+<menu id="gcxmwd" label="创建项目文档">
+<menu id="zbwd" label="技术资料">
+<command commandId="S4JSXYS" label="技术协议书" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4JSXYS"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4HTXGTZD" label="合同修改通知单" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4HTXGTZD"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4HTPSB" label="合同评审表" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4HTPSB"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4DJCKT" label="设计员参考图或技术图" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4DJCKT"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4pact" label="合同" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4pact"/></iterate></not></with></and></visibleWhen></command>
+</menu> 
+<separator name="Knowbase_group1" visible="true"></separator> 
+<menu id="gctzwd" label="工程设计">
+<command commandId="S4DQSJT" label="电气设计图" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4DQSJT"/></iterate></not></with></and></visibleWhen></command>
+</menu> 
+<separator name="Knowbase_group2" visible="true"></separator> 
+<menu id="gcsjglwd" label="出厂文件资料">
+<command commandId="S4XJQD" label="箱件清单或装箱清单" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4XJQD"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4CCML" label="出厂文件目录" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4CCML"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4DZZQD" label="单装置装箱清单" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4DZZQD"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4CGCCQD" label="工程出厂附件清单" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4CGCCQD"/></iterate></not></with></and></visibleWhen></command>
+</menu> 
+<separator name="Knowbase_group3" visible="true"></separator> 
+<menu id="aztswd" label="归档资料">
+<command commandId="S4GCLLQD" label="电话记录单" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4GCLLQD"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4Msummary" label="会议纪要" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4HTPSB"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4QGD" label="请购单" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4QGD"/></iterate></not></with></and></visibleWhen></command>
+</menu> 
+<separator name="Knowbase_group4" visible="true"></separator> 
+<menu id="shfwwd" label="售后服务文档">
+ <!-- <command commandId="S4YHDJB" label="用户（来访、来电、来函和接待等）登记表" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4YHDJB"/></iterate></not></with></and></visibleWhen></command>-->
+</menu> 
+<separator name="Knowbase_group5" visible="true"></separator> 
+<menu id="gcggtz" label="工程更改通知">
+<command commandId="S4PGTZD" label="屏柜/装置/插件修改通知单" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4PGTZD"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4ECOrder" label="工程更改单（热控）" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4ECOrder"/></iterate></not></with></and></visibleWhen></command>
+</menu> 
+</menu> 
+<separator name="Knowbase_group6" visible="true"></separator> 
+<!--<command commandId="S4Gcproj" label="创建项目" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4Gcproj"/></iterate></not></with></and></visibleWhen></command>
+<separator name="Knowbase_group7" visible="true"></separator> 
+			<command
+               		commandId="cjxmzl"
+               		label="项目资料裁剪"
+               		style="push">
+            			<visibleWhen>
+            				<and>
+            					<or>
+									<reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/>
+ 								</or>
+ 								<with variable="rac_command_suppression">
+                    				<not>
+                        				<iterate operator="or">
+                            				<equals value="cjxmzl"/>
+                        				</iterate>
+                    				</not>
+                				</with>
+            				</and>
+            			</visibleWhen>
+        	</command>
+			-->
+</menu> 
+</menu> 
+<menu id="wlcj" label="物料">
+<menu id="xjwl" label="新建物料">
+<command commandId="S4CP" label="成品" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4CP"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4TW" label="空柜" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4TW"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4ELECC" label="电气柜" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4ELECC"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4DEC" label="自主研发装置及设备" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4DEC"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4ROXE" label="工程装置" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4ROXE"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4ECOMP" label="电子元器件" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4ECOMP"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4NECOMP" label="非电子元器件" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4NECOMP"/></iterate></not></with></and></visibleWhen></command>
+<!--<command commandId="S4SSCMM" label="外购工程配套物品" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4SSCMM"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4SSCOM" label="外购合同专用物料" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4SSCOM"/></iterate></not></with></and></visibleWhen></command>
+-->
+<command commandId="S4PLG" label="自主研发类插件及功能模块" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4PLG"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4MP" label="金工件" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4MP"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4COST" label="费用" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4COST"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4OCOST" label="外协费用" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4OCOST"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4OPC" label="选件类" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4OPC"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4DQDM" label="电气一次性物料" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4DQDM"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4RKDM" label="热控一次性物料" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4RKDM"/></iterate></not></with></and></visibleWhen></command>
+</menu>	
+<menu id="wlsq" label="物料申请">
+<command commandId="S4MZ_Mjapp" label="电气功能模件型号名称申请表" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4MZ_Mjapp"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4MZ_Cpapp" label="产品型号名称申请表" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4MZ_Cpapp"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4MZ_Wgjapp" label="研试产品需求单" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4MZ_Wgjapp"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4MZ_Yqjapp" label="美卓物料编码申请单" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4MZ_Yqjapp"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4MZ_Cwlapp" label="研究中心/电网物料申请单" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4MZ_Cwlapp"/></iterate></not></with></and></visibleWhen></command>
+<!--<command commandId="S4MZ_Ycxapp" label="美卓一次性物料申请单" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4MZ_Ycxapp"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4DW_Fqjapp" label="电网非器件申请单" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4DW_Fqjapp"/></iterate></not></with></and></visibleWhen></command>
+<command commandId="S4DW_Yqjapp" label="电网元器件申请单" style="push"><visibleWhen><and><or><reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/> </or> <with variable="rac_command_suppression"><not><iterate operator="or"><equals value="S4DW_Yqjapp"/></iterate></not></with></and></visibleWhen></command>
+-->
+</menu>	
+</menu>	
+<separator name="Knowbase_group11" visible="true"></separator> 
+			<command
+               		commandId="ggsyq"
+               		label="更改所有权"
+               		style="push">
+            			<visibleWhen>
+            				<and>
+            					<or>
+									<reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/>
+ 								</or>
+ 								<with variable="rac_command_suppression">
+                    				<not>
+                        				<iterate operator="or">
+                            				<equals value="ggsyq"/>
+                        				</iterate>
+                    				</not>
+                				</with>
+            				</and>
+            			</visibleWhen>
+        	</command>
+<separator name="Knowbase_group13" visible="true"></separator> 
+			<command
+               		commandId="wjplxz"
+               		label="文件批量下载"
+               		style="push">
+            			<visibleWhen>
+            				<and>
+            					<or>
+									<reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/>
+ 								</or>
+ 								<with variable="rac_command_suppression">
+                    				<not>
+                        				<iterate operator="or">
+                            				<equals value="wjplxz"/>
+                        				</iterate>
+                    				</not>
+                				</with>
+            				</and>
+            			</visibleWhen>
+        	</command>
+</menuContribution>
+<menuContribution
+ locationURI="menu:erpjc?after=group2">
+ 	<separator name="Knowbase_group12" visible="true"></separator> 
+ 	<menu id="erpwlcj" label="物料创建">
+ 		<command
+               	commandId="wlxjcd"
+               	label="物料新建传递"
+               	style="push">
+            		<visibleWhen>
+           				<and>
+           					<or>
+								<reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/>
+ 							</or>
+ 							<with variable="rac_command_suppression">
+                   				<not>
+                        			<iterate operator="or">
+                            			<equals value="wlxjcd"/>
+                        			</iterate>
+                    			</not>
+                			</with>
+            			</and>
+           			</visibleWhen>
+        </command>
+        <command
+               	commandId="wlxjcdjc"
+               	label="物料新建传递检查"
+               	style="push">
+            		<visibleWhen>
+           				<and>
+           					<or>
+								<reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/>
+ 							</or>
+ 							<with variable="rac_command_suppression">
+                   				<not>
+                        			<iterate operator="or">
+                            			<equals value="wlxjcdjc"/>
+                        			</iterate>
+                    			</not>
+                			</with>
+            			</and>
+           			</visibleWhen>
+        </command>
+ 	
+ 	</menu>
+ 	<separator name="Knowbase_group14" visible="true"></separator> 
+ 	<menu id="wlsg" label="物料修改">
+ 		<command
+               	commandId="wlxgcd"
+               	label="物料修改传递"
+               	style="push">
+            		<visibleWhen>
+           				<and>
+           					<or>
+								<reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/>
+ 							</or>
+ 							<with variable="rac_command_suppression">
+                   				<not>
+                        			<iterate operator="or">
+                            			<equals value="wlxgcd"/>
+                        			</iterate>
+                    			</not>
+                			</with>
+            			</and>
+           			</visibleWhen>
+        </command>
+        <command
+               	commandId="wlxgcdjc"
+               	label="物料修改传递检查"
+               	style="push">
+            		<visibleWhen>
+           				<and>
+           					<or>
+								<reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/>
+ 							</or>
+ 							<with variable="rac_command_suppression">
+                   				<not>
+                        			<iterate operator="or">
+                            			<equals value="wlxgcdjc"/>
+                        			</iterate>
+                    			</not>
+                			</with>
+            			</and>
+           			</visibleWhen>
+        </command>
+ 	
+ 	</menu>
+ 	<separator name="Knowbase_group15" visible="true"></separator> 
+ 	<menu id="eco" label="ECO">	
+        <command
+               	commandId="ecocdcc"
+               	label="ECO生成"
+               	style="push">
+            		<visibleWhen>
+           				<and>
+           					<or>
+								<reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/>
+ 							</or>
+ 							<with variable="rac_command_suppression">
+                   				<not>
+                        			<iterate operator="or">
+                            			<equals value="ecocdcc"/>
+                        			</iterate>
+                    			</not>
+                			</with>
+            			</and>
+           			</visibleWhen>
+        </command>
+        <command
+               	commandId="ecocd"
+               	label="ECO传递"
+               	style="push">
+            		<visibleWhen>
+           				<and>
+           					<or>
+								<reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/>
+ 							</or>
+ 							<with variable="rac_command_suppression">
+                   				<not>
+                        			<iterate operator="or">
+                            			<equals value="ecocd"/>
+                        			</iterate>
+                    			</not>
+                			</with>
+            			</and>
+           			</visibleWhen>
+        </command>
+        <command
+               	commandId="ecojc"
+               	label="ECO检查"
+               	style="push">
+            		<visibleWhen>
+           				<and>
+           					<or>
+								<reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/>
+ 							</or>
+ 							<with variable="rac_command_suppression">
+                   				<not>
+                        			<iterate operator="or">
+                            			<equals value="ecojc"/>
+                        			</iterate>
+                    			</not>
+                			</with>
+            			</and>
+           			</visibleWhen>
+        </command>
+ 	</menu>
+ 	<separator name="Knowbase_group16" visible="true"></separator> 
+ 	<menu id="cgsqd" label="采购申请单">
+ 	<command
+               	commandId="sccgsqd"
+               	label="生成采购申请单"
+               	style="push">
+            		<visibleWhen>
+           				<and>
+           					<or>
+								<reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/>
+ 							</or>
+ 							<with variable="rac_command_suppression">
+                   				<not>
+                        			<iterate operator="or">
+                            			<equals value="sccgsqd"/>
+                        			</iterate>
+                    			</not>
+                			</with>
+            			</and>
+           			</visibleWhen>
+        </command>
+ 		<command
+               	commandId="cgsqdcd"
+               	label="采购申请单传递"
+               	style="push">
+            		<visibleWhen>
+           				<and>
+           					<or>
+								<reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/>
+ 							</or>
+ 							<with variable="rac_command_suppression">
+                   				<not>
+                        			<iterate operator="or">
+                            			<equals value="cgsqdcd"/>
+                        			</iterate>
+                    			</not>
+                			</with>
+            			</and>
+           			</visibleWhen>
+        </command>
+        <command
+               	commandId="cgsqdcdjc"
+               	label="采购申请单传递检查"
+               	style="push">
+            		<visibleWhen>
+           				<and>
+           					<or>
+								<reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/>
+ 							</or>
+ 							<with variable="rac_command_suppression">
+                   				<not>
+                        			<iterate operator="or">
+                            			<equals value="cgsqdcdjc"/>
+                        			</iterate>
+                    			</not>
+                			</with>
+            			</and>
+           			</visibleWhen>
+        </command>
+ 	
+ 	</menu>
+ 	<separator name="Knowbase_group17" visible="true"></separator> 
+ 	<menu id="ht" label="合同">
+ 		<command
+               	commandId="htjs"
+               	label="合同接收及更新"
+               	style="push">
+            		<visibleWhen>
+           				<and>
+           					<or>
+								<reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/>
+ 							</or>
+ 							<with variable="rac_command_suppression">
+                   				<not>
+                        			<iterate operator="or">
+                            			<equals value="htjs"/>
+                        			</iterate>
+                    			</not>
+                			</with>
+            			</and>
+           			</visibleWhen>
+        </command>
+ 	</menu>
+ 	<separator name="Knowbase_group24" visible="true"></separator> 
+ 	<menu id="gcbomcdjlxpz" label="工程BOM传递及工艺路线配置">
+ 		<command
+               	commandId="gylxpz"
+               	label="工艺路线配置"
+               	style="push">
+            		<visibleWhen>
+           				<and>
+           					<or>
+								<reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/>
+ 							</or>
+ 							<with variable="rac_command_suppression">
+                   				<not>
+                        			<iterate operator="or">
+                            			<equals value="gylxpz"/>
+                        			</iterate>
+                    			</not>
+                			</with>
+            			</and>
+           			</visibleWhen>
+        </command>
+        <command
+               	commandId="gcbomjgylxplcd"
+               	label="工程BOM及工艺路线批量传递"
+               	style="push">
+            		<visibleWhen>
+           				<and>
+           					<or>
+								<reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/>
+ 							</or>
+ 							<with variable="rac_command_suppression">
+                   				<not>
+                        			<iterate operator="or">
+                            			<equals value="gcbomjgylxplcd"/>
+                        			</iterate>
+                    			</not>
+                			</with>
+            			</and>
+           			</visibleWhen>
+        </command>
+        <command
+               	commandId="gcbomjgylxpljc"
+               	label="工程BOM及工艺路线批量检查"
+               	style="push">
+            		<visibleWhen>
+           				<and>
+           					<or>
+								<reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/>
+ 							</or>
+ 							<with variable="rac_command_suppression">
+                   				<not>
+                        			<iterate operator="or">
+                            			<equals value="gcbomjgylxpljc"/>
+                        			</iterate>
+                    			</not>
+                			</with>
+            			</and>
+           			</visibleWhen>
+        </command>
+    </menu>     
+</menuContribution>
+<menuContribution
+ locationURI="menu:gylxjbomcd?after=group3">
+ 	<separator name="Knowbase_group18" visible="true"></separator> 
+			<command
+               		commandId="yxbomcd"
+               		label="原型BOM传递"
+               		style="push">
+            			<visibleWhen>
+            				<and>
+            					<or>
+									<reference definitionId="com.teamcenter.rac.pse.inMainView"/>
+ 								</or>
+ 								<with variable="rac_command_suppression">
+                    				<not>
+                        				<iterate operator="or">
+                            				<equals value="yxbomcd"/>
+                        				</iterate>
+                    				</not>
+                				</with>
+            				</and>
+            			</visibleWhen>
+        	</command>
+  	<separator name="Knowbase_group19" visible="true"></separator> 
+			<command
+               		commandId="yxbomcdjc"
+               		label="原型BOM传递检查"
+               		style="push">
+            			<visibleWhen>
+            				<and>
+            					<or>
+									<reference definitionId="com.teamcenter.rac.pse.inMainView"/>
+ 								</or>
+ 								<with variable="rac_command_suppression">
+                    				<not>
+                        				<iterate operator="or">
+                            				<equals value="yxbomcdjc"/>
+                        				</iterate>
+                    				</not>
+                				</with>
+            				</and>
+            			</visibleWhen>
+        	</command>
+    <separator name="Knowbase_group20" visible="true"></separator> 
+			<command
+               		commandId="scbomcd"
+               		label="生产BOM传递"
+               		style="push">
+            			<visibleWhen>
+            				<and>
+            					<or>
+									<reference definitionId="com.teamcenter.rac.pse.inMainView"/>
+ 								</or>
+ 								<with variable="rac_command_suppression">
+                    				<not>
+                        				<iterate operator="or">
+                            				<equals value="scbomcd"/>
+                        				</iterate>
+                    				</not>
+                				</with>
+            				</and>
+            			</visibleWhen>
+        	</command>   
+     <separator name="Knowbase_group21" visible="true"></separator> 
+			<command
+               		commandId="scbomcdjc"
+               		label="生产BOM传递检查"
+               		style="push">
+            			<visibleWhen>
+            				<and>
+            					<or>
+									<reference definitionId="com.teamcenter.rac.pse.inMainView"/>
+ 								</or>
+ 								<with variable="rac_command_suppression">
+                    				<not>
+                        				<iterate operator="or">
+                            				<equals value="scbomcdjc"/>
+                        				</iterate>
+                    				</not>
+                				</with>
+            				</and>
+            			</visibleWhen>
+        	</command> 
+      <separator name="Knowbase_group22" visible="true"></separator> 
+			<command
+               		commandId="gylxpzjcd"
+               		label="工艺路线配置及传递"
+               		style="push">
+            			<visibleWhen>
+            				<and>
+            					<or>
+									<reference definitionId="com.teamcenter.rac.pse.inMainView"/>
+ 								</or>
+ 								<with variable="rac_command_suppression">
+                    				<not>
+                        				<iterate operator="or">
+                            				<equals value="gylxpzjcd"/>
+                        				</iterate>
+                    				</not>
+                				</with>
+            				</and>
+            			</visibleWhen>
+        	</command> 
+     <separator name="Knowbase_group23" visible="true"></separator> 
+			<command
+               		commandId="gylxcdjc"
+               		label="工艺路线传递检查"
+               		style="push">
+            			<visibleWhen>
+            				<and>
+            					<or>
+									<reference definitionId="com.teamcenter.rac.pse.inMainView"/>
+ 								</or>
+ 								<with variable="rac_command_suppression">
+                    				<not>
+                        				<iterate operator="or">
+                            				<equals value="gylxcdjc"/>
+                        				</iterate>
+                    				</not>
+                				</with>
+            				</and>
+            			</visibleWhen>
+        	</command>   	 	   	 	
+</menuContribution>
+</extension> 
+</plugin>
